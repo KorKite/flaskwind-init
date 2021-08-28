@@ -1,0 +1,25 @@
+{
+  "name": "flaskwind-init",
+  "version": "1.0.0",
+  "description": "flask with tailwind dev env initialization",
+  "main": "index.js",
+  "scripts": {
+    "css": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.38.2",
+    "tailwindcss": "^2.2.8"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
